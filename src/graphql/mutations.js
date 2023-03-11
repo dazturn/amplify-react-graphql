@@ -15,7 +15,7 @@ export const createTodo = /* GraphQL */ `
     }
   }
 `;
-export const updateTodo = /* GraphQL */ `
+export const UpdateTodo = /* GraphQL */ `
   mutation UpdateTodo(
     $input: UpdateTodoInput!
     $condition: ModelTodoConditionInput
